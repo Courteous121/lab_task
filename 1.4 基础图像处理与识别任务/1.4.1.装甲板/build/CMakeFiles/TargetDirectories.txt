@@ -1,0 +1,3 @@
+/home/alyssa/下载/华南虎面试任务/任务二/build/CMakeFiles/rebuild_cache.dir
+/home/alyssa/下载/华南虎面试任务/任务二/build/CMakeFiles/edit_cache.dir
+/home/alyssa/下载/华南虎面试任务/任务二/build/CMakeFiles/task2.dir
