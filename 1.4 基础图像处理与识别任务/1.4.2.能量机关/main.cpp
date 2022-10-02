@@ -112,7 +112,7 @@ int main()
     objp.push_back(Point3f(0, 110.0f, 0));
     // objp.push_back(Point3f(50.0f,55.0f,0));//顺时针，第一个点在左上
     // objp.push_back(Point3f(50.0f,0,0));
-    VideoCapture cap("任务三 能量机关.avi");
+    VideoCapture cap("能量机关.avi");
     Mat img;
 
     Point c0;
@@ -203,7 +203,7 @@ int main()
                     double ty = tvecs.at<double>(1, 0);
                     double tz = tvecs.at<double>(2, 0);
                     double dis = sqrt(tx * tx + ty * ty + tz * tz);
-                    cout << "距离：" << dis << endl;
+                    cout << "距离：" << dis<<"mm" << endl;
                     string DIS = convertToString(dis);
                     putText(img, DIS, Point(0, 50), FONT_HERSHEY_SIMPLEX, 1, Scalar(255, 255, 255), 2); // angle必须是string数据类型
                 }

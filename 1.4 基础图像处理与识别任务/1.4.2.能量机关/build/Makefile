@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alyssa/下载/华南虎面试任务/任务三
+CMAKE_SOURCE_DIR = "/home/alyssa/下载/华南虎实习生公共任务/1.4 基础图像处理与识别任务/1.4.2.能量机关"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alyssa/下载/华南虎面试任务/任务三/build
+CMAKE_BINARY_DIR = "/home/alyssa/下载/华南虎实习生公共任务/1.4 基础图像处理与识别任务/1.4.2.能量机关/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alyssa/下载/华南虎面试任务/任务三/build/CMakeFiles /home/alyssa/下载/华南虎面试任务/任务三/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/alyssa/下载/华南虎实习生公共任务/1.4 基础图像处理与识别任务/1.4.2.能量机关/build/CMakeFiles" "/home/alyssa/下载/华南虎实习生公共任务/1.4 基础图像处理与识别任务/1.4.2.能量机关/build/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alyssa/下载/华南虎面试任务/任务三/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/alyssa/下载/华南虎实习生公共任务/1.4 基础图像处理与识别任务/1.4.2.能量机关/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named task3
+# Target rules for targets named energy
 
 # Build rule for target.
-task3: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 task3
-.PHONY : task3
+energy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 energy
+.PHONY : energy
 
 # fast build rule for target.
-task3/fast:
-	$(MAKE) -f CMakeFiles/task3.dir/build.make CMakeFiles/task3.dir/build
-.PHONY : task3/fast
+energy/fast:
+	$(MAKE) -f CMakeFiles/energy.dir/build.make CMakeFiles/energy.dir/build
+.PHONY : energy/fast
 
 main.o: main.cpp.o
 
@@ -129,7 +129,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/task3.dir/build.make CMakeFiles/task3.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/energy.dir/build.make CMakeFiles/energy.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -138,7 +138,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/task3.dir/build.make CMakeFiles/task3.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/energy.dir/build.make CMakeFiles/energy.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -147,7 +147,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/task3.dir/build.make CMakeFiles/task3.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/energy.dir/build.make CMakeFiles/energy.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -158,7 +158,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... task3"
+	@echo "... energy"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

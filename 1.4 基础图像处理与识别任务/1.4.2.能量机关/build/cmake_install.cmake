@@ -1,4 +1,4 @@
-# Install script for directory: /home/alyssa/下载/华南虎面试任务/任务三
+# Install script for directory: /home/alyssa/下载/华南虎实习生公共任务/1.4 基础图像处理与识别任务/1.4.2.能量机关
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/alyssa/下载/华南虎面试任务/任务三/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/alyssa/下载/华南虎实习生公共任务/1.4 基础图像处理与识别任务/1.4.2.能量机关/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

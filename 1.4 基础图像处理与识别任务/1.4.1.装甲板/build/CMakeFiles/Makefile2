@@ -44,16 +44,16 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alyssa/下载/华南虎面试任务/任务二
+CMAKE_SOURCE_DIR = "/home/alyssa/下载/华南虎实习生公共任务/1.4 基础图像处理与识别任务/1.4.1.装甲板"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alyssa/下载/华南虎面试任务/任务二/build
+CMAKE_BINARY_DIR = "/home/alyssa/下载/华南虎实习生公共任务/1.4 基础图像处理与识别任务/1.4.1.装甲板/build"
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/task2.dir/all
+all: CMakeFiles/zjb.dir/all
 
 .PHONY : all
 
@@ -63,36 +63,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/task2.dir/clean
+clean: CMakeFiles/zjb.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/task2.dir
+# Target rules for target CMakeFiles/zjb.dir
 
 # All Build rule for target.
-CMakeFiles/task2.dir/all:
-	$(MAKE) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/depend
-	$(MAKE) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alyssa/下载/华南虎面试任务/任务二/build/CMakeFiles --progress-num=1,2 "Built target task2"
-.PHONY : CMakeFiles/task2.dir/all
+CMakeFiles/zjb.dir/all:
+	$(MAKE) -f CMakeFiles/zjb.dir/build.make CMakeFiles/zjb.dir/depend
+	$(MAKE) -f CMakeFiles/zjb.dir/build.make CMakeFiles/zjb.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/alyssa/下载/华南虎实习生公共任务/1.4 基础图像处理与识别任务/1.4.1.装甲板/build/CMakeFiles" --progress-num=1,2 "Built target zjb"
+.PHONY : CMakeFiles/zjb.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/task2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alyssa/下载/华南虎面试任务/任务二/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/task2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alyssa/下载/华南虎面试任务/任务二/build/CMakeFiles 0
-.PHONY : CMakeFiles/task2.dir/rule
+CMakeFiles/zjb.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/alyssa/下载/华南虎实习生公共任务/1.4 基础图像处理与识别任务/1.4.1.装甲板/build/CMakeFiles" 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/zjb.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/alyssa/下载/华南虎实习生公共任务/1.4 基础图像处理与识别任务/1.4.1.装甲板/build/CMakeFiles" 0
+.PHONY : CMakeFiles/zjb.dir/rule
 
 # Convenience name for target.
-task2: CMakeFiles/task2.dir/rule
+zjb: CMakeFiles/zjb.dir/rule
 
-.PHONY : task2
+.PHONY : zjb
 
 # clean rule for target.
-CMakeFiles/task2.dir/clean:
-	$(MAKE) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/clean
-.PHONY : CMakeFiles/task2.dir/clean
+CMakeFiles/zjb.dir/clean:
+	$(MAKE) -f CMakeFiles/zjb.dir/build.make CMakeFiles/zjb.dir/clean
+.PHONY : CMakeFiles/zjb.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
