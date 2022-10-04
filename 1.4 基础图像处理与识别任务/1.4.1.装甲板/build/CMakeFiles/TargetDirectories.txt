@@ -1,3 +1,0 @@
-/home/alyssa/下载/华南虎实习生公共任务/1.4 基础图像处理与识别任务/1.4.1.装甲板/build/CMakeFiles/rebuild_cache.dir
-/home/alyssa/下载/华南虎实习生公共任务/1.4 基础图像处理与识别任务/1.4.1.装甲板/build/CMakeFiles/edit_cache.dir
-/home/alyssa/下载/华南虎实习生公共任务/1.4 基础图像处理与识别任务/1.4.1.装甲板/build/CMakeFiles/zjb.dir
