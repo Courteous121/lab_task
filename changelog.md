@@ -15,3 +15,7 @@
 ## [1.2.1] - 2022-10-4 fourth commit
 
 * 实现了任务1.3.SSH
+
+## [1.3.1] -2022-10-4 fifth commit
+
+* 添加了.gitignore文件，忽略所有的build文件
