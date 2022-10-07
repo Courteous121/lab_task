@@ -218,7 +218,7 @@ int main()
 
         imshow("1", img);
 
-        if (waitKey(100) == 27)
+        if (waitKey(50) == 27)
             if (waitKey(0) == 27)
                 break;
     }

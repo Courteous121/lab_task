@@ -19,3 +19,7 @@
 ## [1.3.1] -2022-10-4 fifth commit
 
 * 添加了.gitignore文件，忽略所有的build文件
+
+## [1.4.1] -2022-10-7 sixth commit
+
+* 添加了报告书和录屏

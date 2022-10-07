@@ -260,7 +260,7 @@ double tx = tvecs.at<double>(0, 0);
         imshow("1", img);
         // imshow("2",img2);
 
-        if (waitKey(100) == 27)
+        if (waitKey(50) == 27)
             if (waitKey(0) == 27)
                 break;
     }
